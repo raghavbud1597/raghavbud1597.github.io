@@ -66,7 +66,7 @@ a:hover {
 }
 @media (max-width:991px){
 	body {
-		background: url("../images/background-img2.jpg") no-repeat;
+		background: url("../images/background-img.jpg") no-repeat;
 		background-size: 100%;
 		opacity: 0.8;
 	}
