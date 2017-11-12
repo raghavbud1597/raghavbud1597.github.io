@@ -1,0 +1,92 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+.box{
+	height: 100vh;
+	width: 100%;
+}
+.box1{
+	height:100vh;
+	overflow: hidden;
+	position: absolute;
+}
+.logo{
+	margin-top: 10vh;
+	margin-left: 10vh;
+}
+.logo img {
+    max-width: 50%;
+    height: auto; }
+.bio {
+	margin-top: 50px;
+	margin-left: 10vh;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 55px;
+	color: #286DA8;
+}
+.dot{
+	font-size: 45px;
+	color: #984B43;
+}
+a:hover {
+  text-decoration: none;
+  border: none;
+  border-style: none;
+  box-shadow: none; 
+  color:#CD5360; }
+.typewrite {
+	margin-top: 10px;
+	text-decoration: none;
+	color: #CD5360;
+	font-family: 'Inconsolata', monospace;
+	font-style: italic;
+	font-size: 55px;
+}
+
+.link {
+	margin-left: 30px;
+	color: #333;
+	margin-top: 70px;
+	margin-right: 10px;
+}
+.box2{
+	width: 100%;
+	height: auto;
+	position: center;
+	overflow: hidden;
+}
+/**********Media Queries*********/
+@media (max-width: 1024px){
+	.link{
+		margin-top: 40px;
+		margin-left: 10px;
+	}
+}
+@media (max-width:991px){
+	body {
+		background: url("../images/background-img2.jpg") no-repeat;
+		background-size: 100%;
+		opacity: 0.8;
+	}
+	.box2 {
+		display: none;
+}
+@media (max-width: 425px){
+	.bio{
+		margin-top: 5px;
+		font-size: 30px;
+	}
+	.dot{
+		font-size: 30px;
+	}
+	.typwrite{
+		font-size: 35px;
+	}
+
+	.link{
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+}
